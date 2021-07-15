@@ -1,0 +1,126 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/* main part starts here */
+
+.main{
+    background-color:rgb(23, 23, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.main-container{
+   
+    width: 1170px;
+    height: 600px;
+    display: flex;
+    margin-bottom: 70px;
+  
+    
+}
+.main-container-title{
+    margin-top: 110px;
+}
+.title{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.container-img img{
+    Width: 555px;
+    height:430px;
+    margin-top: 130px;
+    margin-left: 102px;
+}
+.button{
+    padding: 10px, 24px, 10px, 24px;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+ .button-title{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30px;
+    /* padding-top: 20px; */
+    
+}
+
+/* main part second section */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+.top-players{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+}
+.players{
+       background-color: white;
+       width: 330px;
+       height: 474px;
+      
+       
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding-left: 15px ;
+    padding-top: 15px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+/* copa america final match update stylesheet */
+
+.final-match{
+    width: 1050px;
+    display: flex;
+    
+}
+.final-match-update{
+    width: 400px;
+    padding-left: 20px;
+}
+.final-match-pic{
+    margin-left: 100px;
+}
+.final-match-heading{
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 700;
+} 
+.result-1{
+    display: flex;
+    align-items:center;
+    
+}
+
+.result-2{
+    display: flex;
+    align-items:center;
+    
+}
+
+
+
+
+
